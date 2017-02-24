@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30765E2F1E5FC81D00978A7C /* secrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30765E2E1E5FC81D00978A7C /* secrets.plist */; };
 		30EA77191E56876500653862 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EA77181E56876500653862 /* AppDelegate.swift */; };
 		30EA771B1E56876500653862 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EA771A1E56876500653862 /* ViewController.swift */; };
 		30EA771E1E56876500653862 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30EA771C1E56876500653862 /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		25E8543055F768870C19D1AB /* Pods-3DM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-3DM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-3DM/Pods-3DM.debug.xcconfig"; sourceTree = "<group>"; };
+		30765E2E1E5FC81D00978A7C /* secrets.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = secrets.plist; sourceTree = "<group>"; };
 		30EA77151E56876500653862 /* 3DM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3DM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30EA77181E56876500653862 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		30EA771A1E56876500653862 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				30EA771F1E56876500653862 /* Assets.xcassets */,
 				30EA77211E56876500653862 /* LaunchScreen.storyboard */,
 				30EA77241E56876500653862 /* Info.plist */,
+				30765E2E1E5FC81D00978A7C /* secrets.plist */,
 			);
 			path = 3DM;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30765E2F1E5FC81D00978A7C /* secrets.plist in Resources */,
 				30EA77231E56876500653862 /* LaunchScreen.storyboard in Resources */,
 				30EA77201E56876500653862 /* Assets.xcassets in Resources */,
 				30EA771E1E56876500653862 /* Main.storyboard in Resources */,
@@ -707,6 +711,7 @@
 				30EA773F1E56876500653862 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30EA77401E56876500653862 /* Build configuration list for PBXNativeTarget "3DMTests" */ = {
 			isa = XCConfigurationList;
@@ -715,6 +720,7 @@
 				30EA77421E56876500653862 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30EA77431E56876500653862 /* Build configuration list for PBXNativeTarget "3DMUITests" */ = {
 			isa = XCConfigurationList;
@@ -723,6 +729,7 @@
 				30EA77451E56876500653862 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

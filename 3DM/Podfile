@@ -6,6 +6,7 @@ target '3DM' do
   use_frameworks!
 
   # Pods for 3DM
+  pod 'Parse'
 
   target '3DMTests' do
     inherit! :search_paths
