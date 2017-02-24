@@ -8,18 +8,28 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class LoginSignupVC: UIViewController {
 
+    @IBOutlet weak var uxSignUpButton: UIButton!
+    @IBOutlet weak var uxLoginButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
     }
 
+    @IBAction func signUpButonPressed(_ sender: Any) {
+        uxSignUpButton.isHidden = true
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
 
 
+    @IBAction func loginButtonPressed(_ sender: Any) {
+        //event handler
+    }
 }
 

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Sign Up View Controller-->
+        <scene sceneID="J5p-YZ-WTx">
+            <objects>
+                <viewController id="Jcu-Vi-Vr5" customClass="SignUpViewController" customModule="_DM" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="q1E-y1-TMm"/>
+                        <viewControllerLayoutGuide type="bottom" id="3iv-Ko-HPp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="eW5-2I-jDH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Email" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FHP-lO-jDI">
+                                <rect key="frame" x="37" y="94" width="97" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Password" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xGi-KC-FXs">
+                                <rect key="frame" x="37" y="154" width="97" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter an email and password to signup!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w8X-Gc-8Un">
+                                <rect key="frame" x="37" y="43" width="300" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fOM-fW-P19">
+                                <rect key="frame" x="164" y="257" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Done"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="w8X-Gc-8Un" firstAttribute="top" secondItem="q1E-y1-TMm" secondAttribute="bottom" constant="23" id="Jnz-2e-Us4"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="xGi-KC-FXs" secondAttribute="trailing" constant="225" id="L38-FQ-iao"/>
+                            <constraint firstItem="FHP-lO-jDI" firstAttribute="top" secondItem="w8X-Gc-8Un" secondAttribute="bottom" constant="30" id="MJg-OW-RZc"/>
+                            <constraint firstItem="xGi-KC-FXs" firstAttribute="leading" secondItem="eW5-2I-jDH" secondAttribute="leadingMargin" constant="21" id="XJr-7c-3MA"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="FHP-lO-jDI" secondAttribute="trailing" constant="225" id="YnD-F1-umh"/>
+                            <constraint firstItem="w8X-Gc-8Un" firstAttribute="centerX" secondItem="eW5-2I-jDH" secondAttribute="centerX" id="o0i-Ow-b92"/>
+                            <constraint firstItem="xGi-KC-FXs" firstAttribute="top" secondItem="FHP-lO-jDI" secondAttribute="bottom" constant="30" id="qB7-sP-IwY"/>
+                            <constraint firstItem="FHP-lO-jDI" firstAttribute="leading" secondItem="eW5-2I-jDH" secondAttribute="leadingMargin" constant="21" id="ziN-UX-9aQ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bTq-da-egV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9" y="81"/>
+        </scene>
+    </scenes>
+</document>
