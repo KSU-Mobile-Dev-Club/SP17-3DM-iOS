@@ -1,0 +1,6 @@
+framework module Pods_3DM {
+  umbrella header "Pods-3DM-umbrella.h"
+
+  export *
+  module * { export * }
+}
