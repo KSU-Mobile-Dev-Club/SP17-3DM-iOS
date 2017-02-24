@@ -17,24 +17,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
-        
+        initParse()
         return true
     }
     
     private func initParse(){
         let secrets = getSecrets()
-        // Override point for customization after application launch.
+        
         let config = ParseClientConfiguration(block: {
             (ParseMutableClientConfiguration) -> Void in
-            
             ParseMutableClientConfiguration.applicationId = secrets.1;
-            //ParseMutableClientConfiguration.clientKey = "xhDXegJowYtDtsCRRkdjRnQgdzbeChRujcyMtxHv";
             ParseMutableClientConfiguration.server = secrets.0;
         });
         
         Parse.initialize(with: config);
-        
-        
     }
     
     private func getSecrets() -> (String, String) {
