@@ -11,9 +11,13 @@ import UIKit
 
 class SignUpViewController: UIViewController {
     
+    @IBOutlet weak var ux_email: UITextField!
     override func viewDidLoad() {
         
     }
+    @IBOutlet weak var ux_password: UITextField!
+    @IBOutlet weak var ux_nickname: UITextField!
+    @IBOutlet weak var ux_confirm_email: UITextField!
     
     override func viewWillAppear(_ animated: Bool) {
         
