@@ -27,6 +27,7 @@
                                 <state key="normal" title="Sign Up"/>
                                 <connections>
                                     <action selector="signUpButonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="47q-fY-Vaq"/>
+                                    <segue destination="wlK-YR-RUV" kind="show" id="4YI-8q-Bdf"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to 3DM!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bbL-dv-tVq">
@@ -60,6 +61,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+        </scene>
+        <!--SignUpStoryboard-->
+        <scene sceneID="cpY-5C-GwS">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SignUpStoryboard" id="wlK-YR-RUV" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a3z-Le-8tI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="731" y="71"/>
         </scene>
     </scenes>
 </document>
