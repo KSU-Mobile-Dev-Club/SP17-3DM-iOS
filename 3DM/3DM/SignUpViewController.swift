@@ -24,9 +24,13 @@ class SignUpViewController: UIViewController {
     override func viewDidLoad() {
     }
     
+    @IBAction func SignUpButtonClicked(_ sender: Any) {
+        myMethod()
+    }
     func myMethod() {
         var user = PFUser()
-        user.username = ux_nickname.text
+        user.username = ux_confirm_email.text
+        user["nickname"] = ux_nickname.text
         user.password = ux_password.text
         user.email = ux_confirm_email.text
         // other fields can be set just like with PFObject

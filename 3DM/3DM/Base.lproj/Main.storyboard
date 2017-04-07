@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -41,6 +41,7 @@
                                 <state key="normal" title="Login"/>
                                 <connections>
                                     <action selector="loginButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kFS-Vf-xQi"/>
+                                    <segue destination="GCZ-FM-7Ew" kind="showDetail" id="UcG-ir-dvO"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -69,6 +70,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a3z-Le-8tI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="731" y="71"/>
+        </scene>
+        <!--SignInStoryBoard-->
+        <scene sceneID="DHk-vW-hSh">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SignInStoryBoard" id="GCZ-FM-7Ew" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ikg-Pk-v7m" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="714" y="200"/>
         </scene>
     </scenes>
 </document>
